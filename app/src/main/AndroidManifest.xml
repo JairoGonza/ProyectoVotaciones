@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jairo.proyectovotaciones">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/resultadoporzonas"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ResultadosZonas" />
+        <activity android:name=".resultadosZonas.ResultadosPasto" />
+        <activity android:name=".resultadosZonas.ResultadosZonaCordillera" />
+        <activity android:name=".resultadosZonas.ResultadosZonaCosta" />
+        <activity android:name=".resultadosZonas.ResultadosZonaNorte" />
+        <activity android:name=".resultadosZonas.ResultadosZonaOccidente" />
+        <activity android:name=".resultadosZonas.ResultadosZonaSur" />
+        <!--<activity android:name=".ListaVotacionAdapter" />-->
+        <activity android:name=".ResultadosCandidatos" />
+        <activity android:name=".resultadosCandidatos.ResultadosBerner" />
+        <activity android:name=".resultadosCandidatos.ResultadosGilberto" />
+        <activity android:name=".resultadosCandidatos.ResultadosGuillermo" />
+        <activity android:name=".resultadosCandidatos.ResultadosGustavo" />
+        <activity android:name=".resultadosCandidatos.ResultadosLiliana" />
+        <activity android:name=".resultadosCandidatos.ResultadosNeftali" />
+        <activity android:name=".resultadosCandidatos.ResultadosOscar" />
+        <activity android:name=".AcercaDe"></activity>
+    </application>
+
+</manifest>
